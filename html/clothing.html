@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服装城</title>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="../css/clothing.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/public-header.css">
+    <!-- 底部样式 -->
+    <link rel="stylesheet" href="../css/fwsfooter.css" />
+    <link rel="stylesheet" href="../font/zcf/header_icon-font/iconfont.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- 头部的上部分 -->
+        <div class="rc_top">
+            <div class="rc_top_bar">
+                <ul>
+                    <li class="li_addstyle">
+                        <i class="iconfont icon-weizhi"></i>
+                        <a href="#">郑州市</a>
+                        <div>
+                            <img src="../img/zcf/loadGoods.gif" alt="">
+                        </div>
+                    </li>
+                    <li class="hea_login">
+                        <a href="#">请登录</a>
+                    </li>
+                    <li class="hea_register">
+                        <a href="#">免费注册</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="../html/user_order.html">我的订单</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的浏览</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的收藏</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">客户服务</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        网站导航
+                        <i class="iconfont icon-jiantouxia"></i>
+                        <div class="web_nav">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h3>特色主题</h3>
+                                    </li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">男装怒装</a></li>
+                                    <li><a href="">鞋靴箱包</a></li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h3>促销活动</h3>
+                                    </li>
+                                    <li><a href="">拍卖活动</a></li>
+                                    <li><a href="">CMS频道</a></li>
+                                    <li><a href="">优惠券</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">共创商品</a></li>
+                                    <li><a href="">优惠活动</a></li>
+                                    <li><a href="">礼品卡</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">积分商城</a></li>
+                                    <li><a href="">超值礼包</a></li>
+                                    <li><a href="">预售商品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_top">
+            <div class="left_logo">
+                <a href="../index.html"><img src="../img/zcf/shop_logo.gif" alt=""></a>
+            </div>
+            <div class="right_con">
+                <!-- 搜索商品 和店铺 -->
+                <div class="rc_bottom">
+                    <div class="rb_left">
+                        <div class="search_oper">
+                            <div class="search_inp">
+                                <input type="text" placeholder="手机">
+                            </div>
+                            <div class="search_goods">搜商品</div>
+                            <div class="search_shop">搜店铺</div>
+                            <ul>
+                                <li><a href="#">周大福</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">Five Plus</a></li>
+                                <li><a href="#">手机</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rb_right">
+                        <div class="rb_cart">
+                            <i class="iconfont icon-gouwuche1"></i> 我的购物车
+                            <span>0</span>
+                        </div>
+                        <div class="cart_hover">
+                            <img src="../img/zcf/cart-nogoods.png" alt="">
+                            <span>购物车中还没有商品，赶紧选吧！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品分类 -->
+        <div class="hea_bottom">
+            <div class="hb_title">
+                <div class="hb_package">
+                    <div class="type_goods clothing_goods">
+                        <a href="#">男装、女装、内衣</a>
+                    </div>
+                    <div class="cn_goods_nav">
+                        <ul>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>女装</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>男装</p>
+                                        <span>
+                                            <a href="#">T恤</a>
+                                            <a href="#">裤子</a>
+                                            <a href="#">休闲裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">男装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">裤子</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>服饰配件</p>
+                                        <span>
+                                            <a href="#">配饰</a>
+                                            <a href="#">棒球帽</a>
+                                            <a href="#">遮阳帽</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">配饰</a></li>
+                                        <li><a href="#">棒球帽</a></li>
+                                        <li><a href="#">遮阳帽</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>内衣</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">户外运动</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content" style="border-bottom: none;">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>女装</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav_page">
+                    <ul>
+                        <li>
+                            <a href="../index.html" >首页</a>
+                        </li>
+                        <li>
+                            <a href="#">个护美妆</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav_active">服装城</a>
+                        </li>
+                        <li>
+                            <a href="../html/electric.html">家用电器</a>
+                        </li>
+                        <li>
+                            <a href="../html/Shoes.html">鞋靴箱包</a>
+                        </li>
+                        <li>
+                            <a href="#">聚划算</a>
+                        </li>
+                        <li>
+                            <a href="#">预售</a>
+                        </li>
+                        <li>
+                            <a href="#">店铺街</a>
+                        </li>
+                        <li>
+                            <a href="#">品牌专区</a>
+                        </li>
+                        <li>
+                            <a href="#">公告</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="bgc"></div>
+    <div class="l_anv">
+        <div class="l_box">
+            <ul class="l_uli">
+                <li style="z-index: 1;"><img src="../img/lf/clothing/1.jpg" alt=""></li>
+                <li><img src="../img/lf/clothing/2.jpg" alt=""></li>
+                <li><img src="../img/lf/clothing/3.jpg" alt=""></li>
+                <li><img src="../img/lf/clothing/4.jpg" alt=""></li>
+                <li><img src="../img/lf/clothing/5.jpg" alt=""></li>
+                <li><img src="../img/lf/clothing/1.jpg" alt=""></li>
+            </ul>
+            <div id="l_circle-list">
+                <span class="l_circle l_active"></span>
+                <span class="l_circle"></span>
+                <span class="l_circle"></span>
+                <span class="l_circle"></span>
+                <span class="l_circle"></span>
+            </div>
+            <div class="l_actv"></div>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div class="l_catetop">
+        <!-- 限时抢购 -->
+        <div class="l_limitim l_l">
+            <div class="l_hd">
+                <h2>限时抢购</h2>
+                <h3>新品到货</h3>
+            </div>
+            <div class="l_bd">
+                <ul class="l_limitim-list">
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb.jpg" alt="">
+                        <div class="l_price">
+                            ¥130.00
+                            <del>¥190.79</del>
+                        </div>
+                        <a href="#" class="l_name">YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_1.jpg" alt="">
+                        <div class="l_price">
+                            ¥124.00
+                            <del>¥165.60</del>
+                        </div>
+                        <a href="#" class="l_name">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_2.jpg" alt="">
+                        <div class="l_price">
+                            ¥130.00
+                            <del>¥199.20</del>
+                        </div>
+                        <a href="#" class="l_name">2017韩版女装夏装新款A字宽松松紧腰印花连衣裙DT7039乾 舒适松紧腰 A字版型 时尚印花</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_3.jpg" alt="">
+                        <div class="l_price">
+                            ¥40.00
+                            <del>¥78.00</del>
+                        </div>
+                        <a href="#" class="l_name">初棉纯色圆领长袖T恤打底衫秋衣女上衣体恤女士修身打底衣春秋 挺拔有型 棉氨材质 柔软舒适 耐洗耐磨</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_4.jpg" alt="">
+                        <div class="l_price">
+                            ¥420.00
+                            <del>¥540.00</del>
+                        </div>
+                        <a href="#" class="l_name">韩都衣舍2017韩版女装新款黑白拼接插肩棒球服春季短外套HH5597妠 朴信惠同款 黑白拼接 插肩袖 棒球服</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 女装 -->
+        <div class="l_floor l_l">
+            <div class="l_fhd">
+                <h2>女装</h2>
+                <h3>1F</h3>
+                <div class="l_extra">
+                    <ul class="l_fgoods">
+                        <li class="l_on">连衣裙</li>
+                        <li>蕾丝/雪纺衫</li>
+                        <li>衬衫</li>
+                        <li>T恤</li>
+                        <li>半身裙</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_hd-flert">
+                <img src="../img/lf/clothing/nv1.jpg" alt="">
+            </div>
+            <div class="l_hd-right">
+                <div class="l_right-top">
+                    <img src="../img/lf/clothing/nv2.png" alt="">
+                    <img src="../img/lf/clothing/nv3.jpg" alt="">
+                </div>
+                <div class="l_right-bottom">
+                    <ul class="l_right-uli">
+                        <li>
+                            <img src="../img/lf/clothing/nv-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-4.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍春季韩国ulzzang连帽卫衣女套头宽松百搭学生韩版潮bf风 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥148.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-5.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">2017韩版女装夏装新款A字宽松松紧腰印花连衣裙DT7039乾 舒适松紧腰 A字版型 时尚印花</a>
+                            </div>
+                            <div class="l_p-price">¥166.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-6.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装春装新款条纹显瘦百搭宽松v领七分袖衬衫潮 领券立减/单件包邮/七天无理由退换</a>
+                            </div>
+                            <div class="l_p-price">¥78.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-7.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017春装新款女装春款拼接喇叭长袖连衣裙中长款时尚韩版 领券立减/单件包邮/七天无理由退换</a>
+                            </div>
+                            <div class="l_p-price">¥118.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-8.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">小米红米3s手机壳保护套红米3高配版指纹男女款潮版磨砂硬壳防摔 收藏截图 送大礼包</a>
+                            </div>
+                            <div class="l_p-price">¥15.90</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nv-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nv-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nv-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nv-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nv-2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_brands">
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom1.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom2.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom3.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom4.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom5.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom6.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom7.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom8.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 男装 -->
+        <div class="l_floor l_l">
+            <div class="l_fhd">
+                <h2>男装</h2>
+                <h3>2F</h3>
+                <div class="l_extra">
+                    <ul class="l_fgood">
+                        <li class="l_on">T恤</li>
+                        <li>裤子</li>
+                        <li>POLO衫</li>
+                        <li>针织衫</li>
+                        <li>夹克</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_hd-flert">
+                <img src="../img/lf/clothing/nan-1.png" alt="">
+            </div>
+            <div class="l_hd-right">
+                <div class="l_right-top">
+                    <img src="../img/lf/clothing/nan-2.jpg" alt="">
+                    <img src="../img/lf/clothing/nan-3.jpg" alt="">
+                </div>
+                <div class="l_right-bottom">
+                    <ul class="l_right-uli2">
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom4.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍春季韩国ulzzang连帽卫衣女套头宽松百搭学生韩版潮bf风 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥148.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom5.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">2017韩版女装夏装新款A字宽松松紧腰印花连衣裙DT7039乾 舒适松紧腰 A字版型 时尚印花</a>
+                            </div>
+                            <div class="l_p-price">¥166.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom6.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装春装新款条纹显瘦百搭宽松v领七分袖衬衫潮 领券立减/单件包邮/七天无理由退换</a>
+                            </div>
+                            <div class="l_p-price">¥78.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom7.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017春装新款女装春款拼接喇叭长袖连衣裙中长款时尚韩版 领券立减/单件包邮/七天无理由退换</a>
+                            </div>
+                            <div class="l_p-price">¥118.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom8.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">小米红米3s手机壳保护套红米3高配版指纹男女款潮版磨砂硬壳防摔 收藏截图 送大礼包</a>
+                            </div>
+                            <div class="l_p-price">¥15.90</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli2" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli2" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli2" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli2" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/nan-bom2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_brands">
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom1.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom2.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom3.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom4.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom5.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom6.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom7.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom8.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 服饰配件 -->
+        <div class="l_floor l_l">
+            <div class="l_fhd">
+                <h2>服饰配件</h2>
+                <h3>3F</h3>
+                <div class="l_extra l_ex">
+                    <ul class="l_fgood1">
+                        <li class="l_on">配饰</li>
+                        <li>光学镜架/镜片</li>
+                        <li>防辐射眼镜</li>
+                        <li>女士丝巾/围巾/披肩</li>
+                        <li>棒球帽</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_hd-flert">
+                <img src="../img/lf/clothing/fs-1.png" alt="">
+            </div>
+            <div class="l_hd-right">
+                <div class="l_right-top">
+                    <img src="../img/lf/clothing/fs-2.jpg" alt="">
+                    <img src="../img/lf/clothing/fs-3.jpg" alt="">
+                </div>
+                <div class="l_right-bottom">
+                    <ul class="l_right-uli3">
+                        <li>
+                            <img src="../img/lf/clothing/fs1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs4.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">【新品发售】 Beats Beats Solo3 Wireless 头戴式无线蓝牙耳机 分期免息 全国联保 免费保修一年</a>
+                            </div>
+                            <div class="l_p-price">¥148.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs5.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">Apple/苹果 Apple Watch Series 2 智能手表42mm</a>
+                            </div>
+                            <div class="l_p-price">¥166.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs6.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">NewEra纽亦华 新款MLB棒球帽男女字母NY洋基LA道奇调节平沿嘻哈帽 官方正品</a>
+                            </div>
+                            <div class="l_p-price">¥78.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs7.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">宝石蝶真丝围巾女士春秋季高档丝巾重磅桑蚕丝大方巾披肩丝绸礼品 16姆米重磅真丝丝滑缎面90方巾礼盒包装</a>
+                            </div>
+                            <div class="l_p-price">¥118.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs8.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">小米红米3s手机壳保护套红米3高配版指纹男女款潮版磨砂硬壳防摔 收藏截图 送大礼包</a>
+                            </div>
+                            <div class="l_p-price">¥15.90</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli3" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/fs1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli3" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/fs1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli3" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/fs1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli3" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/fs1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/fs2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_brands">
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom1.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom2.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom3.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom4.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom5.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom6.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom7.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom8.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 内衣 -->
+        <div class="l_floor l_l">
+            <div class="l_fhd">
+                <h2>内衣</h2>
+                <h3>4F</h3>
+                <div class="l_extra">
+                    <ul class="l_fgood2">
+                        <li class="l_on">内衣配件</li>
+                        <li>文胸</li>
+                        <li>睡衣/家居服</li>
+                        <li>情侣睡衣</li>
+                        <li>文胸套装</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_hd-flert">
+                <img src="../img/lf/clothing/ny-1.png" alt="">
+            </div>
+            <div class="l_hd-right">
+                <div class="l_right-top">
+                    <img src="../img/lf/clothing/ny-2.jpg" alt="">
+                    <img src="../img/lf/clothing/ny-3.jpg" alt="">
+                </div>
+                <div class="l_right-bottom">
+                    <ul class="l_right-uli4">
+                        <li>
+                            <img src="../img/lf/clothing/ny1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny4.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">【新品发售】 Beats Beats Solo3 Wireless 头戴式无线蓝牙耳机 分期免息 全国联保 免费保修一年</a>
+                            </div>
+                            <div class="l_p-price">¥148.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny5.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">Apple/苹果 Apple Watch Series 2 智能手表42mm</a>
+                            </div>
+                            <div class="l_p-price">¥166.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny6.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">NewEra纽亦华 新款MLB棒球帽男女字母NY洋基LA道奇调节平沿嘻哈帽 官方正品</a>
+                            </div>
+                            <div class="l_p-price">¥78.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny7.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">宝石蝶真丝围巾女士春秋季高档丝巾重磅桑蚕丝大方巾披肩丝绸礼品 16姆米重磅真丝丝滑缎面90方巾礼盒包装</a>
+                            </div>
+                            <div class="l_p-price">¥118.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny8.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">小米红米3s手机壳保护套红米3高配版指纹男女款潮版磨砂硬壳防摔 收藏截图 送大礼包</a>
+                            </div>
+                            <div class="l_p-price">¥15.90</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli4" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/ny1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli4" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/ny1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli4" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/ny1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli4" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/ny1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/ny2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_brands">
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom1.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom2.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom3.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom4.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom5.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom6.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom7.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom8.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 运动户外 -->
+        <div class="l_floor l_l">
+            <div class="l_fhd">
+                <h2>运动户外</h2>
+                <h3>5F</h3>
+                <div class="l_extra l_ext">
+                    <ul class="l_fgood3">
+                        <li class="l_on">跑步运动</li>
+                        <li>室内健身</li>
+                        <li>自行车运动</li>
+                        <li>轮滑运动</li>
+                        <li>羽毛球/网球/乒乓球</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_hd-flert">
+                <img src="../img/lf/clothing/hy-1.png" alt="">
+            </div>
+            <div class="l_hd-right">
+                <div class="l_right-top">
+                    <img src="../img/lf/clothing/hy-2.jpg" alt="">
+                    <img src="../img/lf/clothing/hy-3.jpg" alt="">
+                </div>
+                <div class="l_right-bottom">
+                    <ul class="l_right-uli5">
+                        <li>
+                            <img src="../img/lf/clothing/hy-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy4.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">【新品发售】 Beats Beats Solo3 Wireless 头戴式无线蓝牙耳机 分期免息 全国联保 免费保修一年</a>
+                            </div>
+                            <div class="l_p-price">¥148.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy5.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">Apple/苹果 Apple Watch Series 2 智能手表42mm</a>
+                            </div>
+                            <div class="l_p-price">¥166.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy6.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">NewEra纽亦华 新款MLB棒球帽男女字母NY洋基LA道奇调节平沿嘻哈帽 官方正品</a>
+                            </div>
+                            <div class="l_p-price">¥78.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy7.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">宝石蝶真丝围巾女士春秋季高档丝巾重磅桑蚕丝大方巾披肩丝绸礼品 16姆米重磅真丝丝滑缎面90方巾礼盒包装</a>
+                            </div>
+                            <div class="l_p-price">¥118.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli5" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/hy-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">74超薄非球面镜片高度近视眼镜片近视镜片防蓝光配眼镜镜片加工 套餐价低至359元 6款镜架任您选</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2016新款秋冬款长袖连衣裙宽松学生冬季内搭打底裙子韩版 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli5" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/hy-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli5" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/hy-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy3.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">男女韩版纯棉可爱冬季个性防尘情侣口罩保暖透气黑色时尚潮款春 15元一共2个口罩 防尘个性时尚</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                    <ul class="l_right-uli5" style="display: none;">
+                        <li>
+                            <img src="../img/lf/clothing/hy-1.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                            </div>
+                            <div class="l_p-price">¥88.00</div>
+                        </li>
+                        <li>
+                            <img src="../img/lf/clothing/hy2.jpg" alt="">
+                            <div class="l_pname">
+                                <a href="#">红叶伞遮阳伞防紫外线黑胶防晒晴雨两用太阳伞女糖果色折叠雨伞大 黑胶防晒 晴雨两用 糖果色 都市风情</a>
+                            </div>
+                            <div class="l_p-price">¥159.00</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="l_brands">
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom1.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom2.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom3.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom4.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom5.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom6.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom7.jpg" alt=""></div>
+                <div class="l_bran"><img src="../img/lf/clothing/nv-bom8.jpg" alt=""></div>
+            </div>
+        </div>
+        <!-- 随手购 -->
+        <div class="l_atwill l_l">
+            <div class="l_awg">
+                <h2>随手购</h2>
+                <ul class="l_cir">
+                    <li class="l_to"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="l_tempwarp">
+                <ul class="l_tempuli">
+                    <li>
+                        <img src="../img/lf/clothing/xs-1.jpg" alt="">
+                        <div class="l_rce">
+                            ¥124.00 </div>
+                        <div class="l_temname">
+                            <a href="#">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-2.jpg" alt="">
+                        <div class="l_rce">
+                            ¥148.00 </div>
+                        <div class="l_temname">
+                            <a href="#">韩都衣舍春季韩国ulzzang连帽卫衣女套头宽松百搭学生韩版潮bf风 领券下单立减/单件包邮/先拍先发货！</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-3.jpg" alt="">
+                        <div class="l_rce">
+                            ¥233.00 </div>
+                        <div class="l_temname">
+                            <a href="#">新款学院风韩版时尚太空棉宽松长袖印花圆领卫衣女</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-4.jpg" alt="">
+                        <div class="l_rce">
+                            ¥498.00 </div>
+                        <div class="l_temname">
+                            <a href="#">HLA/海澜之家休闲西服2017春季新品平驳领时尚西装男单西外套 平驳领型 胸针装饰 青春休闲 舒适手感</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-5.jpg" alt="">
+                        <div class="l_rce">
+                            ¥98.00 </div>
+                        <div class="l_temname">
+                            <a href="#">马克华菲长袖T恤男 冬季新品纯棉圆领黑白潮款印花休闲t恤 98</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-6.jpg" alt="">
+                        <div class="l_rce">
+                            ¥1888.00 </div>
+                        <div class="l_temname">
+                            <a href="#">【新品发售】 Beats Beats Solo3 Wireless 头戴式无线蓝牙耳机 分期免息 全国联保 免费保修一年</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-7.jpg" alt="">
+                        <div class="l_rce">
+                            ¥420.00 </div>
+                        <div class="l_temname">
+                            <a href="#">韩都衣舍2017韩版女装新款黑白拼接插肩棒球服春季短外套HH5597妠 朴信惠同款 黑白拼接 插肩袖 棒球服</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-8.jpg" alt="">
+                        <div class="l_rce">
+                            ¥200.00 </div>
+                        <div class="l_temname">
+                            <a href="#">樱尚雅一片式无痕无钢圈文胸聚拢调整型性感小胸罩厚薄款少女内衣 2件减5元 不聚拢包退 送运费险</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-9.jpg" alt="">
+                        <div class="l_rce">
+                            ¥159.00 </div>
+                        <div class="l_temname">
+                            <a href="#">韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-10.jpg" alt="">
+                        <div class="l_rce">
+                            ¥98.00 </div>
+                        <div class="l_temname">
+                            <a href="#">HLA/海澜之家撞色长袖T恤春季热卖圆领修身拼接T恤男 简约圆领 微弹修身 撞色拼接 触感柔软</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-11.jpg" alt="">
+                        <div class="l_rce">
+                            ¥3188.00 </div>
+                        <div class="l_temname">
+                            <a href="#">Apple/苹果 Apple Watch Series 2 智能手表42mm</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-12.jpg" alt="">
+                        <div class="l_rce">
+                            ¥158.00 </div>
+                        <div class="l_temname">
+                            <a href="#">2017新品 加一尚品无痕内衣女 前扣无钢圈薄款交叉美背文胸M37 厚杯+薄杯 无钢圈 前扣 美背 上薄下厚</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs13.jpg" alt="">
+                        <div class="l_rce">
+                            ¥49.00 </div>
+                        <div class="l_temname">
+                            <a href="#">17年春夏新款百搭半身裙蛋糕裙 a字裙 裤裙伞裙大码裙子超短裙女 松紧腰围 带裤边打底衬 涤针织面料</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-14.jpg" alt="">
+                        <div class="l_rce">
+                            ¥68.00 </div>
+                        <div class="l_temname">
+                            <a href="#">韩美格2017春秋新款修身大码蕾丝网纱打底衫女长袖薄款圆领女T恤 全店商品 二件减5元 三件减10</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-15.jpg" alt="">
+                        <div class="l_rce">
+                            ¥130.00 </div>
+                        <div class="l_temname">
+                            <a href="#">YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-16.jpg" alt="">
+                        <div class="l_rce">
+                            ¥219.00 </div>
+                        <div class="l_temname">
+                            <a href="#">NewEra纽亦华 新款MLB棒球帽男女字母NY洋基LA道奇调节平沿嘻哈帽 官方正品</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-17.jpg" alt="">
+                        <div class="l_rce">
+                            ¥88.00 </div>
+                        <div class="l_temname">
+                            <a href="#">韩都衣舍2017韩版女装夏装新款时尚修身显瘦圆领条纹T恤OGY7711娋 显瘦版型 舒适面料 条纹元素</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../img/lf/clothing/xs-18.jpg" alt="">
+                        <div class="l_rce">
+                            ¥120.00 </div>
+                        <div class="l_temname">
+                            <a href="#">秋季新款男士套头卫衣印花外套韩版简约百搭潮流男生上衣服</a>
+                        </div>
+                        <div class="l_tembtn">
+                            <a href="#">查看详情</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="l_rshift">></div>
+                <div class="l_lshift">
+                    <</div>
+                </div>
+            </div>
+        </div>
+        <!-- 楼层 -->
+        <div class="l_level">
+            <ul class="l_level-list">
+                <li class="l_level-item"><span>限时抢购</span></li>
+                <li><span class="l_level-s">女装</span></li>
+                <li><span class="l_level-s">男装</span></li>
+                <li><span>服饰配件</span></li>
+                <li><span class="l_level-s">内衣</span></li>
+                <li><span>运动户外</span></li>
+                <li><span>随手购</span></li>
+                <div><span>^</span></div>
+            </ul>
+        </div>
+
+        <!-- 底部 -->
+        <div id="footer" class="foo-init">
+            <div class="fotop">
+                <div class="fotopxin">
+                    <div class="ll">
+                        <i class="f-cn cha"></i>
+                        <span>七天包退</span>
+                    </div>
+    
+                    <div class="ll">
+                        <i class="f-cn f-on1 cha"></i>
+                        <span>正品保障</span>
+                    </div>
+    
+                    <div class="ll">
+                        <i class="f-cn f-on2 cha"></i>
+                        <span>好评如潮</span>
+                    </div>
+    
+                    <div class="ll">
+                        <i class="f-cn f-on3 cha"></i>
+                        <span>闪电发货</span>
+                    </div>
+    
+                    <div class="ll">
+                        <i class="f-cn f-on4 cha"></i>
+                        <span>权威荣耀</span>
+                    </div>
+    
+                    <div class="ll mm">
+                        <i class="f-cn f-on5 cha "></i>
+                        <span>4001-021-758</span>
+                        <div style="display: none;"></div>
+                    </div>
+    
+                    <div class="ll mn">
+                        <i class="f-cn f-on6 cha"></i>
+                        <span>咨询客服</span>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="fwsfooter">
+                <ul>
+                    <li>
+                        <h2>新手上路</h2>
+                        <span>售后流程</span><br>
+                        <span>购物流程</span><br>
+                        <span>订购方式</span><br>
+                        <span></span><br>
+                    </li>
+                    <li>
+                        <h2>配送与支付</h2>
+                        <span>货到付款区域</span><br>
+                        <span>配送支付智能查询</span><br>
+                        <span>订购方式说明</span><br>
+                        <span></span><br></li>
+                    <li>
+                        <h2>服务保证</h2>
+                        <span>退换货原则</span><br>
+                        <span>售后服务保证</span><br>
+                        <span>产品质量保证</span><br>
+                        <span></span><br></li>
+                    <li>
+                        <h2>联系我们</h2>
+                        <span>网站故障报告</span><br>
+                        <span>选机咨询</span><br>
+                        <span>投诉与建议</span><br>
+                        <span></span><br></li>
+                    <li>
+                        <h2>会员中心</h2>
+                        <span>资金管理</span><br>
+                        <span>我的收藏</span><br>
+                        <span>我的订单</span><br>
+                        <span></span><br></li>
+                </ul>
+                <div class="fwsfright">
+                    <span class="fwsringt"><img src="../img/fws/fimg/ecjia_qrcode.jpg">
+                        关注微信
+                        </span>
+                    <span><img src="../img/fws/fimg/ectouch_qrcode.jpg">
+                        下载APP
+                        </span>
+    
+                </div>
+    
+                <div class="fwsfd">
+                    <div class="fwsfp1"><span>首页</span>|<span>隐私保护</span>|<span>联系我们</span>|<span>免费条款</span>|<span>公司简介</span>|<span>商家入驻</span>|<span>供应商入住</span>|<span>意见反馈</span></div>
+                    <div class="fwsfp1 fwsfp2"><span>b2b2c</span>|&nbsp;&nbsp;&nbsp;<span>多用户商城系统</span>&nbsp;&nbsp;&nbsp;|<span>商城系统</span>|<span>ecjia新零售</span></div>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边功能 -->
+    <div class="aside">
+        <div class="aside_left">
+            <ul>
+                <li class="al_user">
+                    <a href=""><img src="../img/zcf/用户.png" alt=""></a>
+                </li>
+                <li class="al_shopCart">
+                    <a href="#">
+                        <i class="iconfont icon-gouwuche"></i>
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <span>0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/订单.png" alt="">
+                        <div class="move_box">
+                            我的订单
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/我的优惠卷.png" alt="">
+                        <div class="move_box">
+                            优惠券
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/资产.png" alt="">
+                        <div class="move_box">
+                            我的资产
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/浏览.png" alt="">
+                        <div class="move_box">
+                            我的足迹
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/收藏.png" alt="">
+                        <div class="move_box">
+                            我的收藏
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/信息.png" alt="">
+                        <div class="move_box">
+                            邮箱订阅
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/用户.png" alt="">
+                        <div class="move_box">
+                            客服中心
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="aside_right">
+            <div class="ar_title">
+                <span>购物车</span>
+                <span class="ar_close"><i>X</i></span>
+            </div>
+            <div class="ar_content">
+                <div>
+                    <p><img src="../img/zcf/cart-nogoods.png" alt=""></p>
+                    <p>购物车空空的，赶快去挑选心仪的商品吧~</p>
+                    <p><a href="../index.html">去首页看看</a></p>
+                </div>
+            </div>
+            <div class="ar_foo">
+                <div class="ar_foo_top">
+                    <span>共<i>0</i>件商品</span>
+                    <span>￥<i>0.00</i></span>
+                </div>
+                <div class="ar_foo_btn">
+                    <button type="button">去购物车结算</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="../js/clothing.js"></script>
+        <script src="../js/public-header.js"></script>
+        <script src="../js/zcf-util.js"></script>
+</body>
+
+</html>
